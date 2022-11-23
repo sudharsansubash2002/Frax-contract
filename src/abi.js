@@ -1,8 +1,8 @@
 
-export const tokenaddress1 ='0x14b672C7496b0fACC4bD2c78318a095ED49a28c1';
-export const tokenaddress2 ='0x6b9Cd9c762321044F111483b6c74D31d39e0a6D2';
-export const tokenaddress3 ='0x9d9b0899DF2641E514a0b1DAA6e07F7443eE5eb7';
-export const fraxaddress ='0x868285a7C9730D305b4D3aB0dAF4880fFDF962b2';
+export const tokenaddress1 ='0x22cd35bcaB6eCF9142d00Ec7e20E56581f486581';
+export const tokenaddress2 ='0x597F3b407B3EEa25BF052789fE4831C2e7f505a0';
+export const tokenaddress3 ='0xD189f4eD109b1e8b9D16347616713972212f6B0E';
+export const fraxaddress ='0xA7Ef5b33e0091771C53f3DE8f236DCbCd33D81B8';
 
 
 
@@ -799,7 +799,7 @@ export const abi4=[
 		],
 		"name": "buyback",
 		"outputs": [],
-		"stateMutability": "payable",
+		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -846,7 +846,7 @@ export const abi4=[
 		],
 		"name": "recollateralise",
 		"outputs": [],
-		"stateMutability": "payable",
+		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
